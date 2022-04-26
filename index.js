@@ -11,7 +11,7 @@ const returnFirstTwoDrivers = (drivers) => {
     return driverOne;
 }
 
-const returnLastTwoDrivers = (drivers) => {
+const returnLastTwoDrivers = (drivers) => { 
     let driverTwo = [];
     for (let i = 2; i > 0 ; i--){
         driverTwo.push(drivers[drivers.length - i])
